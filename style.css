@@ -1,0 +1,103 @@
+/*General*/
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: monospace;
+}
+
+body{
+    background-image: url(/svg/layered-steps-haikei.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: end;
+}
+/*General*/
+/*Nav*/
+#nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+/*Assets*/
+#num, #submiting {
+    border: solid black 1px;
+    padding: 2px;
+
+    margin-left: 8px;
+    border-radius: 0.5rem;
+    width: 110px;
+
+    background-color: rgb(223, 222, 222);
+
+    transition: 0.2s;
+}
+
+#submiting:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+#submiting:active{
+    transform: scale(1);
+    transition: 0.2s;
+}
+/*Assets*/
+
+/*Content*/
+#title, #me, #chances {
+    color: rgb(218, 214, 214);
+    font-weight: bolder;
+    padding: 10px;
+}
+#me {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+#content {
+    margin-top: 2rem;
+}
+
+#result {
+    margin-top: 1rem;
+    margin-left: 8px;
+    color: rgb(206, 206, 206);
+}
+
+#result::before{
+    content: "-> ";
+}
+/*Content*/
+
+/*Card*/
+#center {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 15%;
+}
+#card {
+    width: 20rem;
+    height: 11rem;
+
+    border-radius: 1rem;
+
+    background: #85091cd0;
+
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+}
+/*Card*/
+
+#retry {
+    visibility: hidden;
+    margin-left: 5rem;
+
+    background-color: rgba(133, 9, 28, 0);
+    color: white;
+    border: solid rgba(133, 9, 28, 0) 1px;
+
+    cursor: pointer;
+}
