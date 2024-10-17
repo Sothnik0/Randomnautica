@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: url(/svg/layered-steps-haikei.svg);
+    background-image: url(./svg/layered-steps-haikei.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: end;
